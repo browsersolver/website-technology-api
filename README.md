@@ -24,6 +24,7 @@ Use it for lead enrichment, sales prospecting, competitive research and security
 - [Use cases](#use-cases)
 - [Why BrowserSolver?](#why-browsersolver)
 - [FAQ](#faq)
+- [Official SDKs](#official-sdks)
 - [Related repositories](#related-repositories)
 - [Support](#support)
 
@@ -176,6 +177,22 @@ Credits per call: `/v1/website/technology` **1**. See [BrowserSolver pricing](ht
 ### Which languages are supported?
 
 Any language that can make an HTTP request. This README shows Python and TypeScript; the [`examples/`](examples) folder contains cURL, PHP, C#, Go, Java, Ruby and Node.js.
+
+## Official SDKs
+
+Use BrowserSolver from your own language with a typed client:
+
+| SDK | Package | Install |
+| --- | --- | --- |
+| Node.js | [`@browsersolver/sdk`](https://www.npmjs.com/package/@browsersolver/sdk) | `npm install @browsersolver/sdk` |
+| Python | [`browsersolver`](https://pypi.org/project/browsersolver/) | `pip install browsersolver` |
+| Go | [`browsersolver-go`](https://pkg.go.dev/github.com/browsersolver/browsersolver-go) | `go get github.com/browsersolver/browsersolver-go` |
+| .NET | [`BrowserSolver`](https://www.nuget.org/packages/BrowserSolver) | `dotnet add package BrowserSolver` |
+| Ruby | [`browsersolver`](https://rubygems.org/gems/browsersolver) | `gem install browsersolver` |
+| PHP | [`browsersolver/sdk`](https://packagist.org/packages/browsersolver/sdk) | `composer require browsersolver/sdk` |
+| Java | [`browsersolver-java`](https://github.com/browsersolver/browsersolver-java) | build from source, see its README |
+| CLI | [`@browsersolver/cli`](https://www.npmjs.com/package/@browsersolver/cli) | `npm install -g @browsersolver/cli` |
+| MCP server | [`@browsersolver/mcp`](https://www.npmjs.com/package/@browsersolver/mcp) | `npx -y @browsersolver/mcp` |
 
 ## Related repositories
 
